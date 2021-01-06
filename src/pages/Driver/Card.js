@@ -1,4 +1,4 @@
-import { Box, Flex, Spacer, Stack, Text, Image } from '@chakra-ui/react';
+import { Box, Flex, Spacer, Stack, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 import IconMore from 'assets/icons/icons8-more.png';
 import User from 'assets/user.svg';
