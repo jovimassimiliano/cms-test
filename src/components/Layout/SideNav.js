@@ -21,7 +21,7 @@ const SideNav = () => {
 					<MenuItem
 						to={menu.path}
 						key={menu.name}
-						active={isActive(menu.path) ? 1 : undefined}
+						active={isActive(menu.path) ? "active" : ""}
 						className={isActive(menu.path) ? "active" : ""}
 					>
 						<Flex ml={3} px={2} py={3} align="end">
